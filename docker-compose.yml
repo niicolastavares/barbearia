@@ -30,7 +30,7 @@ services:
     container_name: barbearia_mysql
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: barbearia
+      MYSQL_DATABASE: db_barbearia
       MYSQL_USER: user
       MYSQL_PASSWORD: user
       MYSQL_ROOT_PASSWORD: root
